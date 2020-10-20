@@ -6,5 +6,9 @@ import java.util.List;
 
 public interface BookRepositoryCustom {
 
+    List<Book> findAll();
+
     List<Book> findByTitle(String title);
+
+    void deleteAllByTitles(List<String> titles);
 }

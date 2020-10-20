@@ -9,7 +9,9 @@ import java.util.List;
 
 import static me.iiaii.querydslinit.domain.QBook.book;
 
-
+/**
+ * 기본적인 형태의 QuerydslRepositorySupport 확장
+ */
 @Repository
 public class BookRepositorySupport extends QuerydslRepositorySupport {
 
